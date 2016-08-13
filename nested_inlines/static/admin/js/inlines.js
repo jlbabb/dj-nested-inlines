@@ -224,8 +224,8 @@
 
 
 		// not sure why, but the nextUntil will frequently break the search_space
-		//var search_space = $("#"+sourceParentPrefix+'-0').nextUntil("."+sourceParentPrefix + "-not-nested");
-		var search_space = $("#"+sourceParentPrefix+'-0');
+		var search_space = $("#"+sourceParentPrefix+'-0').nextUntil("."+sourceParentPrefix + "-not-nested");
+		//var search_space = $("#"+sourceParentPrefix+'-0');
 
 		//all nested inlines
 		var nested_inlines = search_space.find("." + sourceParentPrefix + "-nested-inline");
